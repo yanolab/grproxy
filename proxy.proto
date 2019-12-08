@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package grproxy;
+
+service ProxyService {
+  rpc Connect(stream ReadWrite) returns (stream ReadWrite) {};
+}
+
+message ReadWrite {
+  bytes buf = 1;
+  int32 len = 2;
+}
