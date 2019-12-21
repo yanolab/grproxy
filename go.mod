@@ -3,7 +3,9 @@ module github.com/yanolab/grproxy
 go 1.12
 
 require (
+	github.com/go-sql-driver/mysql v1.4.1
 	github.com/golang/protobuf v1.3.2
+	github.com/google/uuid v1.1.1
 	golang.org/x/lint v0.0.0-20190313153728-d0100b6bd8b3 // indirect
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/tools v0.0.0-20190524140312-2c0ae7006135 // indirect
